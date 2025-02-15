@@ -3,7 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <PackageProjectUrl>https://github.com/KoertLichtendonk/SampSharp.ColAndreas.Entities</PackageProjectUrl>
+    <PackageIcon>sampsharp.png</PackageIcon>
+    <RepositoryUrl>https://github.com/KoertLichtendonk/SampSharp.ColAndreas.Entities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\sampsharp.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="SampSharp.Core" Version="0.10.1" />
