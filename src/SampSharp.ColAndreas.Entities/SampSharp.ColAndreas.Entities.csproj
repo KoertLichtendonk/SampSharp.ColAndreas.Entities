@@ -7,6 +7,7 @@
     <PackageIcon>sampsharp.png</PackageIcon>
     <RepositoryUrl>https://github.com/KoertLichtendonk/SampSharp.ColAndreas.Entities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Description>A wrapper of the popular SA-MP ColAndreas plugin for SampSharp ECS.</Description>
   </PropertyGroup>
 
   <ItemGroup>
